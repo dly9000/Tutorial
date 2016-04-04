@@ -19,27 +19,6 @@ def _adjust_bounds(ax, points):
 
 def voronoi_plot_2d(vor, ax=None):
     """
-    Plot the given Voronoi diagram in 2-D
-
-    Parameters
-    ----------
-    vor : scipy.spatial.Voronoi instance
-        Diagram to plot
-    ax : matplotlib.axes.Axes instance, optional
-        Axes to plot on
-
-    Returns
-    -------
-    fig : matplotlib.figure.Figure instance
-        Figure for the plot
-
-    See Also
-    --------
-    Voronoi
-
-    Notes
-    -----
-    Requires Matplotlib.
 
     """
     ax = fig.gca()
